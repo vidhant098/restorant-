@@ -84,10 +84,13 @@ function Api() {
 
     return (      
    <>  
+    
 
+<h1 className="text-3xl font-bold underline">
+tailwind css is  working
+</h1>
 
-         <div  className="container">   
-                
+         <div  className="container">             
           {/* <input type="text" placeholder="search here"   value={searchterm}  style={{height:'50px'}}/> */}
            <FaSearch    style={{cursor:'pointer'}}/>
       
