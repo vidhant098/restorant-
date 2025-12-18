@@ -1,0 +1,278 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.card{ display: inline-block; 
+   height: 400px ; 
+    width: 450px; 
+
+     margin :10px ; 
+      background-color: rgba(0, 0, 0, 0.334);
+        background-size: cover;
+}  
+ 
+.card img{
+  height :100% ; 
+  width: 100%;   
+  box-shadow: 0 10 220 23;   
+   border-radius: 20px;
+   
+} 
+
+ h1{     
+   box-shadow: 0 4px 12px red;
+
+   background-color: rgb(224, 224, 224); 
+    color:rgba(0, 0, 0, 0.686) ;  
+      height:60px  ;   
+       display :inline-block;   
+        border-radius: 21px;    
+ }  
+  
+ h1:hover{
+       background-color: rgb(207, 234, 203); 
+          box-shadow:   10px 10px 11px rgb(255, 39, 39);  
+   }
+
+
+  p{
+     font-size: 20px;
+  }
+  
+footer{
+   background-color: rgb(214, 183, 183); 
+    color :rgba(0, 0, 0, 0.811)  ; 
+      height :250px;    
+       margin: 20px ; 
+        padding: 20px ;
+        text-align: center;
+}    
+ #container{
+   background-color: brown; 
+   
+ } 
+  
+   
+    
+    body{
+       /* background-color: hwb(0 75% 7%); */
+    }  
+
+     .rating{
+        font-size: 20px; 
+        background-color: beige; 
+         border-radius: 20px;  
+          color: rgb(36, 98, 255); 
+     } 
+      .button {
+        background-color: #fff8f8; 
+         height :60px; 
+          display:flex;  
+           align-self: center;  
+             /* align-items: center;  */
+              /* justify-content:  center;  */
+               justify-items: center;
+                justify-content: space-evenly;  
+                 box-shadow: 0 10 220 23;  
+                       /* box-shadow: 0 4px 12px rgba(9, 8, 5, 0.4); */
+
+    
+                
+      }   
+
+       .button button{
+              box-shadow: 0 4px 12px rgb(231, 29, 29);
+
+       }
+        .button:hover{
+           background-color: rgb(250, 242, 242); 
+            transition: scale(5);
+        }   
+
+
+        
+  .button button:hover{ 
+ 
+    
+         transform: scale(1.1);   
+ 
+         background-color: #fefbf1f9; 
+         color:rgb(74, 87, 8);  
+
+        cursor: pointer; 
+         border-color: rgb(255, 166, 1); 
+         /* border: 2px; */
+
+      box-shadow: 0 4px 12px rgb(241, 3, 3);
+      /* transform: translateX(20px); */
+
+
+  }  
+
+       
+       ul{    
+         background-color: rgb(224, 210, 202);
+         margin-top: 15px;
+         font-size: 25px;
+         height: 50px; 
+         display: flex; 
+      
+          justify-content: space-evenly;
+           border: 2px black solid ;  
+           font-style: none; 
+            text-decoration: none; 
+             /* animation: vidhant 4s ease-in 1s  infinite normal   ;  */
+              
+            
+                  box-shadow:  10px 12px 13px rgb(76, 12, 12);   
+
+       }  
+
+
+ ul li{list-style-type: none;   
+
+   text-decoration: none;  
+   
+ }   
+
+ul :hover{
+   background-color: rgb(167, 186, 186);
+}
+
+li:hover
+{
+   cursor: pointer;  
+   background-color: #fdc4c4;
+  color: white;
+  transform: scale(1.1);  
+   
+}
+
+
+   .navbar:hover{
+      background-color: burlywood; 
+     box-shadow:  10px 12px 13px rgb(76, 12, 12);  
+   
+   }
+
+  .Register{ 
+       background-color: rgb(243, 140, 140);
+        display: flex; 
+         align-items: center; 
+            height:600px ; 
+             font-size: large; 
+             font-size: larger;
+           
+  }
+  .Register button{ 
+     /* display: flex;
+      align-items: center; */
+     border-radius: 20%; 
+     margin: 50px  50px;  
+      height:30px ;
+      width: 70px; 
+     
+  }  
+
+
+  .Register button:hover{ 
+
+     background-color: rgb(134, 220, 230); 
+      transform: translatex(33);
+      border-color:rgb(52, 3, 116); 
+   
+
+     
+  }   
+   .Register form{
+        width:50%
+   }
+
+
+   .about{
+
+
+      height: 100vh;
+       background-color: #f9dbdb;
+ 
+   }
+   
+   .about :hover{
+    transform: rotateX(10);
+   background-color: aqua;
+   } 
+
+    .contat button {
+
+       margin-left:250px;
+        border-radius: 25%;
+        background-color: rgb(255, 220, 218);
+    } 
+
+    
+ 
+     button :hover{
+        transform: scale(2);
+     }
+     .contat h5{
+       margin-left: 250px;
+       font-size: 25px;
+     }
+
+     .rerset{
+
+        margin :50px ; 
+        padding: 50px ; 
+
+     }
+
+     .login{
+
+      background-color: #ef8585;   
+       height:90vh;
+       display: flex; 
+        align-items: center; 
+         justify-content: center;
+          border: black solid 2px; 
+           box-shadow: 0 6px 12px rgb(18, 50, 255) ;
+     }
+     form{
+border:2px solid rgb(0, 0, 0);
+/* background: radial-gradient(circle, red, rgb(190, 190, 20), green); */
+
+  background: linear-gradient(135deg, #fd0acc, #5e1b3f , #151613);
+
+ margin-left: 150px; 
+ 
+  padding-left: 50px; 
+   height:460px; 
+    width:400px; 
+
+     border-radius: 20px; 
+      box-shadow: 0 4px 12px #0f17ff; 
+
+      padding-top:50px 
+
+} 
+
+ 
+ 
+  .login h3{
+    color: rgb(233, 49, 49); 
+     font-size: 30px; 
+      margin-bottom: 20px; 
+  }
+    
+.lgn{
+   background-color: #d37d7d;   
+
+} 
+ a{
+      text-decoration: none;
+ } 
+  .navbar{
+    
+    border-radius: 5%;
+  }
