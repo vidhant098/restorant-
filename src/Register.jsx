@@ -20,10 +20,20 @@ import { Link } from 'react-router-dom'
     
      let [show , SetShow] = useState()
 
-    function done()
-    {
+    function done(e)
+    {  
+
+
+
+       
       SetData({...data})  ; 
-       console.log(show)
+       console.log(show) 
+
+       axios.post('http://localhost:4000/register'   , input).then((res)=>{
+
+        SetData(res.data) 
+         alert(res.data.message)
+       })
     }
 
 
@@ -42,24 +52,25 @@ import { Link } from 'react-router-dom'
 
     <br/>
     <br/> 
-     <label> Password    - </label>
+     <label> Emai;   - </label>
       <input name= "email" value = {input.email}   placeholder='email' type = 'text ' onChange={f1} />  
 
     <br/>  
      <br/>
-<br/>
+     <br/>
  
-  <label>    Email  -- </label>
+    <label>   Password  -- </label>
 
-      <br/>           <input name='password' value = {input.password}   placeholder='password' type = 'text' onChange={f1} />  
+      <br/>    
+     <input name='password' value = {input.password}   placeholder='password' type = 'text' onChange={f1} />  
 
        
        <br></br>
 
-       <button onChange={done}> submit</button>  
+       <button onClick={done}> submit</button>  
        
- </form> 
-  </fieldset> 
+       </form> 
+     </fieldset> 
 
       <h2> Name : {input.name} </h2>
       <h2> password :****</h2> 
